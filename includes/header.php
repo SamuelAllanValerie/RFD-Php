@@ -1,10 +1,12 @@
+<body>
 <header>
     <nav>
         <ul>
-            <li><a href="index.php?page=accueil">Menu 1</a></li>
-            <li><a href="index.php?page=produits">Menu 2</a></li>
-            <li><a href="index.php?page=inscription">Menu 3</a></li>
-            <li><a href="index.php?page=contact">Menu 4</a></li>
+            <li><a href="index.php?page=accueil">Accueil</a></li>
+            <li><a href="index.php?page=produits">Produits</a></li>
+            <li><a href="index.php?page=inscription">Inscription</a></li>
+            <li><a href="index.php?page=contact">Contact</a></li>
         </ul>
     </nav>
 </header>
+</body>
