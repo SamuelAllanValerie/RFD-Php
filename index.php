@@ -15,7 +15,7 @@ else {
 $path = "./includes/";
 $contenu = glob($path . "*.inc.php");
 $page = $path . $page . ".inc.php";
-var_dump($contenu);
+
 if (in_array($page, $contenu)) {
     include_once $page;
 }
@@ -28,6 +28,6 @@ else{
 //$page = isset($_GET['page']) ? $_GET['page'] : "accueil";
 
 
-include_once "./includes/index.php";
+include_once "./includes/footer.php";
 
 
