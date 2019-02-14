@@ -19,8 +19,7 @@ if (isset($_POST['maurice'])) {
 
     if (count($erreurs) > 0) {
         $message = "<ul>";
-
-
+        $i = 0;
         while ($i < count($erreurs)) {
             $message .= "<li>" . $erreurs[$i] . "</li>";
             $i++;
